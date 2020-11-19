@@ -92,5 +92,70 @@ a:hover {
   color: #061e37;
 }
 
+.promo__content {
+  display: flex;
+  margin-top: 167px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo__title {
+  color: white;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 65px;
+  text-transform: uppercase;
+}
+
+.promo__descr {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 35px;
+  opacity: 0.85;
+}
+
+.promo__btns {
+  margin-top: 38px;
+}
+
+.promo__btn {
+  width: 150px;
+  height: 55px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.promo__btn_black {
+  background-color: #061e37;
+  color: white;
+  margin-right: 30px;
+}
+
+
+.promo__btn_white {
+  background-color: #fff;
+  color: #061e37;
+}
+
+.promo__text {
+  width: 45%;
+}
+
+.promo__video {
+  position: relative;
+}
+
+.promo__video > video {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 1px solid #061e37;
+}
+
+
+
 
 
