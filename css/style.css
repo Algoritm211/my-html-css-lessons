@@ -1,0 +1,96 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 80px;
+}
+
+/* promo-section */
+
+.promo {
+  min-height: 750px;
+  background: url(../img/bg/promo-bg.png) center center/cover no-repeat;
+  padding: 50px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__wrap {
+  display: flex;
+  align-items: center;
+}
+
+.logo__text {
+  width: 140px;
+  height: 26px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.logo__text > span {
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__item {
+  margin: 0 25px;
+  opacity: 0.85;
+  transition: all 0.3s linear;
+}
+
+.nav__item:hover {
+  opacity: 1;
+  transform: translate(3px, 3px);
+}
+
+.nav__item > a {
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s linear;
+}
+
+.nav__item > a:hover {
+  color: #061e37;
+}
+
+.promo__sign > button {
+  padding: 6px 20px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 3px;
+  transition: all 0.2s linear;
+}
+
+.promo__sign > button:hover {
+  background-color: #ffffff;
+  color: #061e37;
+}
+
+
+
