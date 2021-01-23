@@ -2,124 +2,235 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous"/>
   <link rel="stylesheet" href="css/bootstrap-reboot.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
-  <!-- Promo section -->
-  <section class="promo">
-    <div class="container">
-      <header class="header">
-        <a class="logo">
-          <div class="logo__wrap">
-            <img src="" alt="">
-            <div class="logo__text">
-              Dart <br>
-              <span>service manager</span>
+<!-- Promo section -->
+<section class="promo">
+  <div class="container">
+    <header class="header">
+      <a class="logo">
+        <div class="logo__wrap">
+          <img src="" alt="">
+          <div class="logo__text">
+            Dart <br>
+            <span>service manager</span>
+          </div>
+        </div>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="">Useful</a>
+          </li>
+          <li class="nav__item">
+            <a href="">Service</a>
+          </li>
+          <li class="nav__item">
+            <a href="">Our Team</a>
+          </li>
+          <li class="nav__item">
+            <a href="">Help</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="promo__sign">
+        <button>
+          Sing in
+        </button>
+      </div>
+    </header>
+    <div class="promo__content">
+      <div class="promo__text">
+        <h1 class="promo__title">
+          Lorem Ipsum Dolor sit amet
+        </h1>
+        <div class="promo__descr">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, itaque quisquam eveniet magni corrupti atque
+          quaerat sequi, ex in nesciunt modi explicabo unde consequuntur fuga facere distinctio eum excepturi! Omnis.
+        </div>
+        <div class="promo__btns">
+          <button class="promo__btn promo__btn_black">Buy now</button>
+          <button class="promo__btn promo__btn_white">Try for free</button>
+        </div>
+      </div>
+      <div class="promo__video">
+        <video id='video' src="" width="600" height="320" poster="./img/video/video_background.png"></video>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="useful">
+  <div class="container">
+    <h2 class="title">
+      Easy & Useful
+    </h2>
+    <div class="subtitle">
+      Project Managenent Tool
+    </div>
+    <div class="descr">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequatur dolore est ex exercitationem
+      facilis illum reiciendis ullam. A accusamus consectetur ea eveniet itaque quas quos repudiandae tempora voluptate
+      voluptates.
+    </div>
+
+    <div class="useful__content">
+
+      <div class="useful__item">
+        <div class="useful__icon">
+          <i class="far fa-calendar-alt"></i>
+        </div>
+        <div class="useful__text">
+          <h3 class="useful__title">Title Goes Here</h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci dicta distinctio excepturi facilis,
+          harum, id incidunt nemo sequi soluta suscipit tempore, temporibus! Laborum, quaerat quos! Quidem saepe sint
+          veniam.
+        </div>
+      </div>
+
+      <div class="useful__item">
+        <div class="useful__icon">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="useful__text">
+          <h3 class="useful__title">Title Goes Here</h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci dicta distinctio excepturi facilis,
+          harum, id incidunt nemo sequi soluta suscipit tempore, temporibus! Laborum, quaerat quos! Quidem saepe sint
+          veniam.
+        </div>
+      </div>
+
+      <div class="useful__item">
+        <div class="useful__icon">
+          <i class="fas fa-dragon"></i>
+        </div>
+        <div class="useful__text">
+          <h3 class="useful__title">Title Goes Here</h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci dicta distinctio excepturi facilis,
+          harum, id incidunt nemo sequi soluta suscipit tempore, temporibus! Laborum, quaerat quos! Quidem saepe sint
+          veniam.
+        </div>
+      </div>
+    </div>
+    <button class="useful__btn">
+      Get Started
+    </button>
+  </div>
+</section>
+
+<!--  Services section-->
+<section class="services">
+  <h2 class="title">
+    Services
+  </h2>
+  <div class="descr">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorum eligendi facere natus nulla qui quidem quos
+    ut, velit voluptatum. Accusamus consequatur dignissimos expedita harum laborum? Debitis exercitationem itaque
+    numquam?
+  </div>
+  <div class="service__content">
+    <div class="tabs">
+
+      <div class="tabs__item">
+        <div class="tabs__head">
+          <div class="tabs__wrap">
+            <div class="tabs__icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="tabs__title">
+              Statistics
             </div>
           </div>
-        </a>
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="">Useful</a>
-            </li>
-            <li class="nav__item">
-              <a href="">Service</a>
-            </li>
-            <li class="nav__item">
-              <a href="">Our Team</a>
-            </li>
-            <li class="nav__item">
-              <a href="">Help</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="promo__sign">
-          <button>
-            Sing in
-          </button>
-        </div>
-      </header>
-      <div class="promo__content">
-        <div class="promo__text">
-          <h1 class="promo__title">
-            Lorem Ipsum Dolor sit amet  
-          </h1>
-          <div class="promo__descr">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, itaque quisquam eveniet magni corrupti atque quaerat sequi, ex in nesciunt modi explicabo unde consequuntur fuga facere distinctio eum excepturi! Omnis.
-          </div>
-          <div class="promo__btns">
-            <button class="promo__btn promo__btn_black">Buy now</button>
-            <button class="promo__btn promo__btn_white">Try for free</button>
+          <div class="tabs__down">
+            <i class="fas fa-caret-down"></i>
           </div>
         </div>
-        <div class="promo__video">
-          <video id='video' src="" width="600" height="320" poster="./img/video/video_background.png"></video>
+        <div class="tabs__content">
+          <div class="tabs__img"></div>
+          <div class="tabs__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid animi atque blanditiis delectus
+            dolor exercitationem illum iusto maiores modi obcaecati, omnis pariatur porro praesentium, recusandae sed
+            unde, vero voluptas?
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eveniet neque recusandae reprehenderit
+            sequi!
+          </div>
+        </div>
+      </div>
+
+      <div class="tabs__item">
+        <div class="tabs__head">
+          <div class="tabs__wrap">
+            <div class="tabs__icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="tabs__title">
+              Inbox
+            </div>
+          </div>
+          <div class="tabs__down">
+            <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+        <div class="tabs__content">
+          <div class="tabs__img"></div>
+          <div class="tabs__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid animi atque blanditiis delectus
+            dolor exercitationem illum iusto maiores modi obcaecati, omnis pariatur porro praesentium, recusandae sed
+            unde, vero voluptas?
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eveniet neque recusandae reprehenderit
+            sequi!
+          </div>
+        </div>
+      </div>
+
+      <div class="tabs__item">
+        <div class="tabs__head">
+          <div class="tabs__wrap">
+            <div class="tabs__icon">
+              <i class="fas fa-user-friends"></i>
+            </div>
+            <div class="tabs__title">
+              Team
+            </div>
+          </div>
+          <div class="tabs__down">
+            <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+        <div class="tabs__content">
+          <div class="tabs__img"></div>
+          <div class="tabs__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid animi atque blanditiis delectus
+            dolor exercitationem illum iusto maiores modi obcaecati, omnis pariatur porro praesentium, recusandae sed
+            unde, vero voluptas?
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eveniet neque recusandae reprehenderit
+            sequi!
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  <section class="useful">
-    <div class="container">
-      <h2 class="title">
-        Easy & Useful
-      </h2>
-      <div class="subtitle">
-        Project Managenent Tool
-      </div>
-      <div class="descr">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequatur dolore est ex exercitationem facilis illum reiciendis ullam. A accusamus consectetur ea eveniet itaque quas quos repudiandae tempora voluptate voluptates.
-      </div>
+  </div>
+  </div>
+</section>
 
-      <div class="useful__content">
 
-        <div class="useful__item">
-          <div class="useful__icon">
-            <i class="far fa-calendar-alt"></i>
-          </div>
-          <div class="useful__text">
-            <h3 class="useful__title">Title Goes Here</h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci dicta distinctio excepturi facilis, harum, id incidunt nemo sequi soluta suscipit tempore, temporibus! Laborum, quaerat quos! Quidem saepe sint veniam.
-          </div>
-        </div>
-
-        <div class="useful__item">
-          <div class="useful__icon">
-            <i class="fas fa-user"></i>
-          </div>
-          <div class="useful__text">
-            <h3 class="useful__title">Title Goes Here</h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci dicta distinctio excepturi facilis, harum, id incidunt nemo sequi soluta suscipit tempore, temporibus! Laborum, quaerat quos! Quidem saepe sint veniam.
-          </div>
-        </div>
-
-        <div class="useful__item">
-          <div class="useful__icon">
-            <i class="fas fa-dragon"></i>
-          </div>
-          <div class="useful__text">
-            <h3 class="useful__title">Title Goes Here</h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci dicta distinctio excepturi facilis, harum, id incidunt nemo sequi soluta suscipit tempore, temporibus! Laborum, quaerat quos! Quidem saepe sint veniam.
-          </div>
-        </div>
-
-      </div>
-
-      <button class="useful__btn">
-        Get Started
-      </button>
-
-    </div>
-  </section>
+<script src="js/main.js"></script>
 </body>
 </html>
