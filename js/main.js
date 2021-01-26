@@ -15,4 +15,30 @@ window.addEventListener("DOMContentLoaded", () => {
       });
     }
   });
+
+
+  // Carousel
+  $(".carousel").slick({
+    autoPlay: true,
+    autoPlaySpeed: 5000,
+    prevArrow:
+      `<div class="carousel__arrow carousel__prev"><i class="fas fa-chevron-left"></i></div>`,
+    nextArrow:
+      `<div class="carousel__arrow carousel__next"><i class="fas fa-chevron-right"></i></div>`
+  })
+
+  // let slider = tns({
+  //   container: '.carousel',
+  //   slideBy: 'page',
+  //   prevButton:
+  //     `<div class="carousel__arrow carousel__prev"><i class="fas fa-chevron-left"></i></div>`,
+  //   nextButton:
+  //     `<div class="carousel__arrow carousel__next"><i class="fas fa-chevron-right"></i></div>`,
+  //   autoplay: true
+  // });
+
 })
+
+
+
+
