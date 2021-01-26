@@ -58,6 +58,10 @@ a:hover {
   align-items: center;
 }
 
+.logo__wrap img {
+  margin-right: 10px;
+}
+
 .logo__text {
   width: 140px;
   height: 26px;
@@ -88,6 +92,10 @@ a:hover {
   margin: 0 25px;
   opacity: 0.85;
   transition: all 0.3s linear;
+}
+
+.nav__item:last-of-type {
+  margin-right: 0;
 }
 
 .nav__item:hover {
@@ -431,11 +439,146 @@ a:hover {
 }
 
 
+/* Our team section */
+
+.team {
+  min-height: 760px;
+  padding: 100px 0 90px 0;
+}
+
+.team__content {
+  margin-top: 98px;
+}
+
+/*Carousel item*/
+
+.carousel {
+  width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel__name {
+  color: #061e37;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.carousel__text {
+  color: #90a4ae;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel__links {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.carousel__links > a {
+  margin: 0 20px;
+}
 
 
+.carousel__links i {
+  color: #90a4ae;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.carousel__image {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 60px auto;
+}
+
+.carousel__arrow {
+  position: absolute;
+  top: 20%;
+  cursor: pointer;
+}
+
+.carousel__arrow i {
+  font-size: 60px;
+
+}
+
+.carousel__prev {
+  left: 0;
+  z-index: 1;
+}
+
+.carousel__next {
+  right: 0;
+}
 
 
+/* Footer section */
 
+.footer {
+  min-height: 300px;
+  background-color: #061e37;
+  padding: 100px 0;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+}
+
+.footer__left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer__submenu {
+  display: flex;
+  align-items: center;
+}
+
+.footer__submenu a {
+  opacity: 0.5;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.footer__submenu div {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer__links a {
+  margin-left: 16px;
+}
+
+.footer__links i {
+  opacity: 0.2;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
 
 
 
