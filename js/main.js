@@ -15,4 +15,13 @@ window.addEventListener("DOMContentLoaded", () => {
       });
     }
   });
+
+  $(".carousel").slick({
+    autoPlay: true,
+    autoPlaySpeed: 5000,
+    prevArrow:
+      `<div class="carousel__arrow carousel__prev"><i class="fas fa-chevron-left"></i></div>`,
+    nextArrow:
+      `<div class="carousel__arrow carousel__next"><i class="fas fa-chevron-right"></i></div>`
+  })
 })
