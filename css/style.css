@@ -58,6 +58,10 @@ a:hover {
   align-items: center;
 }
 
+.logo__wrap img {
+  margin-right: 10px;
+}
+
 .logo__text {
   width: 140px;
   height: 26px;
@@ -88,6 +92,10 @@ a:hover {
   margin: 0 25px;
   opacity: 0.85;
   transition: all 0.3s linear;
+}
+
+.nav__item:last-of-type {
+  margin-right: 0;
 }
 
 .nav__item:hover {
