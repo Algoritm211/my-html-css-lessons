@@ -34,19 +34,19 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="">Home</a>
+            <a href="#home" class="scroll-to">Home</a>
           </li>
           <li class="nav__item">
-            <a href="">Useful</a>
+            <a href="#useful" class="scroll-to">Useful</a>
           </li>
           <li class="nav__item">
-            <a href="">Service</a>
+            <a href="#service" class="scroll-to">Service</a>
           </li>
           <li class="nav__item">
-            <a href="">Our Team</a>
+            <a href="#team" class="scroll-to">Our Team</a>
           </li>
           <li class="nav__item">
-            <a href="">Help</a>
+            <a href="#contact" class="scroll-to">Help</a>
           </li>
         </ul>
       </nav>
@@ -71,12 +71,18 @@
         </div>
       </div>
       <div class="promo__video">
-        <video id='video' src="" width="600" height="320" poster="./img/video/video_background.png"></video>
+        <video id='video' src="videos/landing_video.mp4" width="600" height="320" poster="./img/video/video_background.png"></video>
+        <div class="promo__play" id="playVideo">
+          <div>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<section class="useful">
+
+<section class="useful" id="useful">
   <div class="container">
     <h2 class="title">
       Easy & Useful
@@ -135,7 +141,7 @@
 </section>
 
 <!--  Services section-->
-<section class="services">
+<section class="services" id="service">
   <h2 class="title">
     Services
   </h2>
@@ -232,7 +238,7 @@
   </div>
 </section>
 
-<section class="comment">
+<section class="comment" id="team">
   <div class="container">
     <div class="comment__wrap">
       <div>
@@ -386,7 +392,7 @@
               <a href="">Home</a>
             </li>
             <li class="nav__item">
-              <a href="">Useful</a>
+              <a href="#useful" class="scroll-to">Useful</a>
             </li>
             <li class="nav__item">
               <a href="">Service</a>
@@ -421,6 +427,14 @@
   </div>
 </footer>
 
+<div class="popup">
+  <div class="popup__wrap">
+    <div class="popup__data">
+
+    </div>
+    <i class="fas fa-times popup__close"></i>
+  </div>
+</div>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
